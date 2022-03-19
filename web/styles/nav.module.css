@@ -1,0 +1,33 @@
+.container {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(10px);
+}
+.logo{
+    margin-left: 20px;
+}
+.logo > path{
+        stroke: var(--stroke)
+}
+.right{
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+}
+.right *{
+    margin-right: 20px;
+}
+.right input{
+    background: none;
+    height: 40px;
+    width: 260px;
+    border: solid 2px var(--stroke);
+    border-radius: 8px;
+    outline: none !important;
+}

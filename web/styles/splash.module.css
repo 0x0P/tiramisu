@@ -1,0 +1,65 @@
+
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100000;
+    background-color: var(--background1);
+    flex-direction: column;
+
+    }
+    .logo > path{
+        stroke-dasharray: 392px;
+            animation: stroke 1.2s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+            -webkit-animation: stroke 1.2s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+            stroke: var(--stroke)
+    }
+    .logo {
+        animation: logo 1.2s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    }
+      
+    @keyframes stroke {
+        from {
+          stroke-dashoffset: -392;
+          opacity: 0;
+          stroke-width: 0;
+        }
+        to {
+          stroke-dashoffset: 0;
+          opacity: 1;
+          stroke-width: 100px;
+        }
+      }  
+      @keyframes logo {
+        from {
+            transform: scale(0.5) rotate(-15deg);
+        }
+        to {
+            transform: scale(1) rotate(0deg);
+        }
+      }  
+      @-webkit-keyframes stroke {
+        from {
+          stroke-dashoffset: 392;
+          opacity: 0;
+          stroke-width: 0;
+        }
+        to {
+          stroke-dashoffset: 0;
+          opacity: 1;
+          stroke-width: 100px;
+        }
+      }  
+      
+.container h1{
+  font-size: 12px;
+  color: black;
+  font-weight: 100 !important;
+  position: absolute;
+  bottom: 0;
+}
