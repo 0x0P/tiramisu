@@ -37,11 +37,14 @@
     padding: 0px 20px;
 }
 .title h1{   
-     color: rgba(0, 118, 255);
      font-weight: bold !important;
+     transition: 0.1s;
+     width: min-content;
 }
 .title h1:hover{
-    text-decoration: underline;
+    color: rgba(0, 118, 255);
+    border-bottom: solid 3px rgba(0, 118, 255);
+
 }
 .toolsContainer{
     width: 10vw;
@@ -52,6 +55,17 @@
     align-items: center;
     position: fixed;
     right : 0;
+    transition: 0.2s;
+}
+.toolsContainer2{
+    width: 10vw;
+    background-color: none;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left : 0;
     transition: 0.2s;
 }
 .tools{
