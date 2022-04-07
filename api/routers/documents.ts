@@ -3,7 +3,7 @@ const router : Router = express.Router();
 
 
 router.get('/', (req : Request, res : Response) => {
-    res.send(`Hello, World ${req.ip}!`);
+  res.send("ds")
   });
 
   export default router

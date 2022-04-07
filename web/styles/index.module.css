@@ -1,16 +1,30 @@
 
 .container {
     width: 100vw;
-    height: 100vh;
-    min-height: 100vh;
+    height: auto;
+    min-height: 110vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     background-color: var(--background2);
-    transition: 0.2s;
 }
 
-
+.TiramisuInfo{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-left: solid 5px var(--text) !important;
+    background-color: var(--background3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.TiramisuInfo object {
+    filter: invert(var(--invert))
+}
 .main{
     margin-top: 80px;
     width: 80vw;
@@ -21,7 +35,6 @@
     background-color: var(--background1);
     height: auto;
     flex-direction: column;
-    transition: 0.2s;
 }
 .main h2{
     text-align: center;
@@ -33,19 +46,24 @@
 .title{
     align-self: flex-start;
     margin: 0;
-    width: 100%;
+    width: auto;
     padding: 0px 20px;
 }
 .title h1{   
      font-weight: bold !important;
      transition: 0.1s;
      width: min-content;
+     box-shadow: 0 0px 0px rgba(0, 118, 255);
 }
-.title h1:hover{
+ .title h1:hover{
+    transition: 0.2s;
     color: rgba(0, 118, 255);
-    border-bottom: solid 3px rgba(0, 118, 255);
-
+    box-shadow: 0 3px 0px rgba(0, 118, 255);
+} 
+.title h1:active{
+    transform: scale(0.9);
 }
+
 .toolsContainer{
     width: 10vw;
     background-color: none;
@@ -55,7 +73,6 @@
     align-items: center;
     position: fixed;
     right : 0;
-    transition: 0.2s;
 }
 .toolsContainer2{
     width: 10vw;
@@ -66,7 +83,6 @@
     align-items: center;
     position: fixed;
     left : 0;
-    transition: 0.2s;
 }
 .tools{
     width: 35%;

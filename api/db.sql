@@ -10,7 +10,7 @@ create table documents (
     `version` int,
     `date` timestamp,
     `history` JSON,
-    `ACL` NUMERIC
+    `ACL` number
 );
 
 create table accounts {

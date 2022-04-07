@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.4.1",
     "@svgr/webpack": "^6.2.1",
     "babel-plugin-inline-react-svg": "^2.0.1",
     "eslint-plugin-react": "^7.28.0",

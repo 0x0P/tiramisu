@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import styles from '../styles/nav.module.css'
 import Logo from "../assets/tiramisu.svg";
-
+import Link from 'next/link';
 const Splash: NextPage = () => {
 
   return (
     <div className={styles.container} >
-    <Logo className={styles.logo} width={20} />
+    <Link href="/index"><a><Logo className={styles.logo} width={20} /></a></Link>
     <div className={styles.right}>
     <input>
     </input>

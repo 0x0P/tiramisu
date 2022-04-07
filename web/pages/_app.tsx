@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <link rel="apple-touch-icon" href="/tiramisu.png" />
       <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
     </Head>
+    <Splash/>
   <Nav />
 <NextNprogress color="#000"  startPosition={0}  options={{ easing: 'ease', speed: 500 }} stopDelayMs={0} height={3} showOnShallow={true} />
   <Component {...pageProps} />
