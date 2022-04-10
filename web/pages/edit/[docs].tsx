@@ -21,9 +21,22 @@ const Home: NextPage = () => {
     const { docs } = router.query
     return (
         <div className={styles.container}>
-                  <div className={styles.toolsContainer2}>
+      <div className={styles.toolsContainer2}>
                   </div>
           <div className={styles.main}>
+          <Link href={`/${docs}`}><a className={styles.title} ><h1  style={{fontSize : 35,width: 'auto'}}>{`수정중 : ${docs}`}</h1></a></Link>
+          <Editor
+          width="95%"
+     height="80vh"
+     defaultLanguage="html"
+     theme={theme}
+     defaultValue={data}
+   />
+    <h2>
+    
+    </h2>      
+            </div>
+            <div className={styles.main}>
           <Link href={`/${docs}`}><a className={styles.title} ><h1  style={{fontSize : 35,width: 'auto'}}>{`수정중 : ${docs}`}</h1></a></Link>
           <Editor
           width="95%"

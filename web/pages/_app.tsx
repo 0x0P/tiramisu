@@ -18,7 +18,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Head >
       <title>tiramisu</title>
     <link rel="apple-touch-icon" href="/tiramisu.png" />
-      <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
     </Head>
     <Splash/>
   <Nav />

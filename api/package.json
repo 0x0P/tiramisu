@@ -13,6 +13,7 @@
     "@types/pg": "^8.6.5"
   },
   "dependencies": {
+    "build-number-generator": "^1.0.0",
     "express": "^5.0.0-beta.1",
     "pg": "^8.7.3"
   }

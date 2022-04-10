@@ -1,6 +1,7 @@
 
 .container {
-    width: 100vw;
+    width: 100vw;;
+    min-width: 100vw;
     height: auto;
     min-height: 110vh;
     display: flex;
@@ -16,14 +17,19 @@
     justify-content: center;
     align-items: center;
     border-radius: 0.5rem;
-    border-left: solid 5px var(--text) !important;
+    border-left: solid 8px var(--text) !important;
     background-color: var(--background3);
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 100;
+    transition: 0.3s;
 }
 .TiramisuInfo object {
     filter: invert(var(--invert))
+}
+.TiramisuInfo:hover{
+    border-left: solid 8px rgba(0, 118, 255) !important;
+
 }
 .main{
     margin-top: 80px;

@@ -1,3 +1,4 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
 :root{
   --background1: #FFF;
   --background2 : rgb(245, 245, 245);
@@ -16,13 +17,12 @@
   --background3: rgb(0 0 0 / 30%);
   --invert : 1
 }
- 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Pretendard', 'Noto Sans KR',sans-serif;
+  font-style: normal;  
     min-height: 100vh;
     height: auto;
     background-color: var(--background1);

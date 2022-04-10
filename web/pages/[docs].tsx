@@ -5,7 +5,7 @@ import { parser } from '../assets/parser';
 import Link from 'next/link';
 import { useRouter } from 'next/router'
 
-const data = `<h1>天安門 天安门 法輪功 李洪志 Free Tibet 劉曉波</h1>
+const data = `<h1>가나다abcㄱㄴㄷ天安門 天安门 法輪功 李洪志 Free Tibet 劉曉波</h1>
 {"Import":"abc"}
 <div class=${styles.TiramisuInfo}><object width="30px"  class=${styles.logo} type="image/svg+xml" data="/tiramisu.svg"></object> 이문서는 tiramisu 관련 문서입니다 </div>`
 
